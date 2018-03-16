@@ -1,0 +1,22 @@
+#card {
+  margin: 20px;
+  width: 100%;
+  height: 200px;
+  list-style: none;
+}
+#card li {
+  margin: 10px;
+  width: 150px;
+  height: 200px;
+  float: left;
+  position: relative;
+}
+#card li img {
+  position: absolute;
+}
+#card li.off, #card li.lock {
+  pointer-events : none;
+}
+.title{
+  text-align: center;
+}
